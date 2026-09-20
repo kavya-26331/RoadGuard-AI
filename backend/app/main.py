@@ -27,10 +27,12 @@ app = FastAPI(
 # list of origins, e.g.:
 #   FRONTEND_URL=https://roadguard-ai789.netlify.app,http://localhost:5173
 origins = [
-    origin.strip()
+    origin.strip().rstrip("/")
     for origin in FRONTEND_URL.split(",")
     if origin.strip()
 ]
+
+print(f"[CORS] Allowed origins: {origins}")
 
 app.add_middleware(
     CORSMiddleware,
@@ -84,3 +86,6 @@ def health():
         "status": "healthy",
         "service": "RoadGuard AI API",
     }
+
+
+
