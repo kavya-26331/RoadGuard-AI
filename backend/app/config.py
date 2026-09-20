@@ -47,6 +47,6 @@ API_PREFIX = os.getenv("API_PREFIX", "/api/v1")
 # Render env var example:
 #   FRONTEND_URL=https://roadguard-ai789.netlify.app,http://localhost:5173
 FRONTEND_URL = os.getenv(
-    "FRONTEND_URL",              # ✅ env var name
+    "https://roadguard-ai789.netlify.app",              # ✅ env var name
     "http://localhost:5173",     # ✅ default value
 )
