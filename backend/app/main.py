@@ -23,11 +23,18 @@ app = FastAPI(
 # CORS
 # --------------------------------------------------
 
+# FRONTEND_URL can be a single origin or a comma-separated
+# list of origins, e.g.:
+#   FRONTEND_URL=https://roadguard-ai789.netlify.app,http://localhost:5173
+origins = [
+    origin.strip()
+    for origin in FRONTEND_URL.split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        FRONTEND_URL,
-    ],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
