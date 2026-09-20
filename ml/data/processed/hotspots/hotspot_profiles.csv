@@ -1,0 +1,53 @@
+hotspot_cluster,hotspot_label,accident_count,severe_accidents,fatal_accidents,severe_rate,Day_of_week,Types_of_Junction,Road_surface_conditions,Light_conditions,Weather_conditions,Vehicle_movement,Cause_of_accident
+0,Pattern Hotspot 0,3361,498,25,14.817018744421304,Thursday,Y Shape,Dry,Daylight,Normal,Going straight,Changing lane to the right
+3,Pattern Hotspot 3,1653,250,14,15.12401693889897,Wednesday,Y Shape,Dry,Daylight,Normal,Moving Backward,Changing lane to the left
+11,Pattern Hotspot 11,817,106,13,12.974296205630356,Saturday,Y Shape,Dry,Daylight,Normal,Going straight,Changing lane to the right
+7,Pattern Hotspot 7,637,78,6,12.244897959183673,Wednesday,Y Shape,Dry,Daylight,Normal,Going straight,No distancing
+8,Pattern Hotspot 8,419,78,15,18.615751789976134,Thursday,Y Shape,Dry,Darkness - lights lit,Normal,Going straight,No priority to vehicle
+10,Pattern Hotspot 10,307,50,1,16.286644951140065,Wednesday,No junction,Dry,Daylight,Normal,Moving Backward,No distancing
+4,Pattern Hotspot 4,300,39,0,13.0,Friday,Y Shape,Dry,Daylight,Normal,Going straight,Changing lane to the right
+6,Pattern Hotspot 6,293,44,7,15.017064846416384,Saturday,No junction,Dry,Daylight,Normal,Going straight,Changing lane to the right
+9,Pattern Hotspot 9,250,20,1,8.0,Friday,No junction,Dry,Daylight,Normal,Going straight,Changing lane to the right
+15,Pattern Hotspot 15,214,33,0,15.42056074766355,Friday,Crossing,Dry,Daylight,Normal,Going straight,Changing lane to the right
+26,Pattern Hotspot 26,199,25,3,12.562814070351758,Saturday,Y Shape,Dry,Daylight,Normal,Moving Backward,Changing lane to the right
+29,Pattern Hotspot 29,186,25,0,13.440860215053762,Saturday,Crossing,Dry,Daylight,Normal,Other,No priority to vehicle
+5,Pattern Hotspot 5,179,36,9,20.11173184357542,Sunday,No junction,Dry,Daylight,Normal,Moving Backward,Changing lane to the right
+21,Pattern Hotspot 21,142,32,5,22.535211267605636,Friday,No junction,Dry,Daylight,Normal,Moving Backward,Changing lane to the left
+14,Pattern Hotspot 14,128,33,7,25.78125,Saturday,No junction,Dry,Darkness - lights lit,Normal,Going straight,Changing lane to the right
+20,Pattern Hotspot 20,126,21,0,16.666666666666664,Friday,Crossing,Dry,Daylight,Normal,Other,Changing lane to the right
+2,Pattern Hotspot 2,111,20,0,18.01801801801802,Friday,Y Shape,Dry,Daylight,Normal,Other,Changing lane to the right
+25,Pattern Hotspot 25,91,8,0,8.791208791208792,Saturday,Y Shape,Dry,Daylight,Normal,Going straight,No distancing
+32,Pattern Hotspot 32,79,9,3,11.39240506329114,Saturday,Crossing,Dry,Darkness - lights lit,Normal,Going straight,Driving carelessly
+17,Pattern Hotspot 17,71,15,0,21.12676056338028,Saturday,Y Shape,Dry,Darkness - lights lit,Normal,Going straight,Changing lane to the left
+24,Pattern Hotspot 24,68,22,5,32.35294117647059,Saturday,No junction,Dry,Darkness - lights lit,Normal,Going straight,Changing lane to the right
+12,Pattern Hotspot 12,64,4,0,6.25,Sunday,Crossing,Dry,Daylight,Normal,Going straight,No distancing
+1,Pattern Hotspot 1,51,14,1,27.450980392156865,Sunday,Y Shape,Dry,Darkness - lights lit,Normal,Going straight,Changing lane to the right
+16,Pattern Hotspot 16,51,7,2,13.725490196078432,Saturday,No junction,Dry,Daylight,Normal,Going straight,No distancing
+13,Pattern Hotspot 13,41,11,0,26.82926829268293,Friday,Crossing,Dry,Darkness - lights lit,Normal,Going straight,Changing lane to the right
+36,Pattern Hotspot 36,39,6,1,15.384615384615385,Sunday,No junction,Dry,Daylight,Normal,Other,No distancing
+37,Pattern Hotspot 37,39,10,0,25.64102564102564,Saturday,Y Shape,Dry,Darkness - lights lit,Normal,Moving Backward,Moving Backward
+33,Pattern Hotspot 33,39,5,0,12.82051282051282,Friday,Y Shape,Dry,Daylight,Normal,Going straight,No distancing
+28,Pattern Hotspot 28,38,7,0,18.421052631578945,Friday,No junction,Dry,Daylight,Normal,Going straight,No distancing
+18,Pattern Hotspot 18,38,6,0,15.789473684210526,Sunday,Crossing,Dry,Daylight,Normal,Moving Backward,No distancing
+35,Pattern Hotspot 35,38,11,4,28.947368421052634,Saturday,No junction,Dry,Darkness - lights lit,Normal,Turnover,Changing lane to the left
+31,Pattern Hotspot 31,38,9,1,23.684210526315788,Friday,Y Shape,Dry,Darkness - lights lit,Normal,Going straight,Changing lane to the left
+22,Pattern Hotspot 22,36,1,0,2.7777777777777777,Sunday,Crossing,Dry,Darkness - lights lit,Normal,Going straight,Moving Backward
+23,Pattern Hotspot 23,35,11,4,31.428571428571427,Saturday,No junction,Dry,Darkness - lights lit,Normal,Other,Changing lane to the left
+39,Pattern Hotspot 39,35,2,0,5.714285714285714,Friday,No junction,Dry,Darkness - lights lit,Normal,Going straight,No priority to vehicle
+40,Pattern Hotspot 40,34,5,1,14.705882352941178,Tuesday,Y Shape,Dry,Darkness - lights lit,Normal,Moving Backward,No priority to vehicle
+42,Pattern Hotspot 42,31,4,0,12.903225806451612,Friday,Y Shape,Dry,Daylight,Normal,Reversing,No distancing
+48,Pattern Hotspot 48,29,6,0,20.689655172413794,Friday,Crossing,Dry,Daylight,Normal,Going straight,No distancing
+19,Pattern Hotspot 19,28,3,1,10.714285714285714,Thursday,Crossing,Dry,Darkness - lights lit,Normal,Other,No priority to vehicle
+30,Pattern Hotspot 30,28,2,0,7.142857142857142,Wednesday,No junction,Dry,Darkness - lights lit,Normal,Going straight,No distancing
+41,Pattern Hotspot 41,28,6,2,21.428571428571427,Thursday,No junction,Dry,Darkness - lights lit,Normal,Other,Changing lane to the right
+44,Pattern Hotspot 44,27,3,1,11.11111111111111,Friday,No junction,Dry,Daylight,Normal,Moving Backward,No distancing
+43,Pattern Hotspot 43,25,4,0,16.0,Thursday,No junction,Dry,Darkness - lights lit,Normal,Going straight,No distancing
+34,Pattern Hotspot 34,25,1,0,4.0,Saturday,Y Shape,Dry,Daylight,Normal,Other,No distancing
+49,Pattern Hotspot 49,24,5,0,20.833333333333336,Friday,Y Shape,Dry,Darkness - lights lit,Normal,Moving Backward,Changing lane to the right
+38,Pattern Hotspot 38,23,3,2,13.043478260869565,Friday,Crossing,Dry,Darkness - lights lit,Normal,Going straight,Changing lane to the right
+45,Pattern Hotspot 45,23,3,2,13.043478260869565,Monday,Y Shape,Wet or damp,Darkness - lights lit,Raining,Moving Backward,Changing lane to the left
+51,Pattern Hotspot 51,22,3,1,13.636363636363635,Sunday,Crossing,Dry,Darkness - lights lit,Normal,Moving Backward,Changing lane to the right
+27,Pattern Hotspot 27,21,0,0,0.0,Wednesday,Y Shape,Dry,Darkness - lights lit,Normal,Going straight,No distancing
+47,Pattern Hotspot 47,20,1,0,5.0,Sunday,Crossing,Dry,Darkness - lights lit,Normal,Other,Changing lane to the right
+50,Pattern Hotspot 50,19,2,0,10.526315789473683,Tuesday,Y Shape,Wet or damp,Daylight,Raining,Other,No distancing
+46,Pattern Hotspot 46,18,2,0,11.11111111111111,Saturday,No junction,Dry,Darkness - lights lit,Normal,Going straight,Driving carelessly

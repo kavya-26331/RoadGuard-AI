@@ -1,0 +1,10 @@
+Weather_conditions,accident_count,severe_count,severe_rate
+Cloudy,125,8,6.4
+Fog or mist,10,1,10.0
+Normal,10063,1609,15.99
+Other,296,28,9.46
+Raining,1331,181,13.6
+Raining and Windy,40,2,5.0
+Snow,61,5,8.2
+Unknown,292,51,17.47
+Windy,98,16,16.33

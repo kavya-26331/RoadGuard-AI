@@ -1,0 +1,21 @@
+Cause_of_accident,accident_count,severe_count,severe_rate
+No distancing,2263,323,14.27
+Changing lane to the right,1808,283,15.65
+Changing lane to the left,1473,222,15.07
+Driving carelessly,1402,231,16.48
+No priority to vehicle,1207,162,13.42
+Moving Backward,1137,188,16.53
+No priority to pedestrian,721,100,13.87
+Other,456,71,15.57
+Overtaking,430,79,18.37
+Driving under the influence of drugs,340,51,15.0
+Driving to the left,284,57,20.07
+Getting off the vehicle improperly,197,32,16.24
+Driving at high speed,174,33,18.97
+Overturning,149,25,16.78
+Turnover,78,8,10.26
+Overspeed,61,16,26.23
+Overloading,59,12,20.34
+Drunk driving,27,3,11.11
+Improper parking,25,3,12.0
+Unknown,25,2,8.0

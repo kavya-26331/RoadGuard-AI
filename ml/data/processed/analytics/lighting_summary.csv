@@ -1,0 +1,5 @@
+Light_conditions,accident_count,severe_count,severe_rate
+Darkness - lights lit,3286,531,16.16
+Darkness - lights unlit,40,7,17.5
+Darkness - no lighting,192,54,28.12
+Daylight,8798,1309,14.88
