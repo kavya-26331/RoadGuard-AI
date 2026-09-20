@@ -8,11 +8,8 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 ML_DIR = PROJECT_ROOT / "ml"
-
 MODEL_DIR = ML_DIR / "models"
-
 DATA_DIR = ML_DIR / "data" / "processed"
-
 ANALYTICS_DIR = DATA_DIR / "analytics"
 
 
@@ -20,21 +17,10 @@ ANALYTICS_DIR = DATA_DIR / "analytics"
 # ML model files
 # --------------------------------------------------
 
-SEVERITY_MODEL_PATH = (
-    MODEL_DIR / "severity_model_xgb_balanced.pkl"
-)
-
-SEVERITY_METADATA_PATH = (
-    MODEL_DIR / "severity_model_metadata.pkl"
-)
-
-RISK_MODEL_PATH = (
-    MODEL_DIR / "risk_analysis_model.pkl"
-)
-
-HOTSPOT_MODEL_PATH = (
-    MODEL_DIR / "hotspot_dbscan.pkl"
-)
+SEVERITY_MODEL_PATH = MODEL_DIR / "severity_model_xgb_balanced.pkl"
+SEVERITY_METADATA_PATH = MODEL_DIR / "severity_model_metadata.pkl"
+RISK_MODEL_PATH = MODEL_DIR / "risk_analysis_model.pkl"
+HOTSPOT_MODEL_PATH = MODEL_DIR / "hotspot_dbscan.pkl"
 
 
 # --------------------------------------------------
@@ -57,16 +43,10 @@ CAUSE_SUMMARY_PATH = ANALYTICS_DIR / "cause_summary.csv"
 
 API_PREFIX = os.getenv("API_PREFIX", "/api/v1")
 
-# Support multiple origins, comma-separated.
-# Example value on Render:
-# FRONTEND_URL=https://roadguard-ai789.netlify.app,http://localhost:5173
+# FRONTEND_URL can be a single origin or a comma-separated list.
+# Render env var example:
+#   FRONTEND_URL=https://roadguard-ai789.netlify.app,http://localhost:5173
 FRONTEND_URL = os.getenv(
-    "https://roadguard-ai789.netlify.app/",
-    "http://localhost:5173",
+    "FRONTEND_URL",              # ✅ env var name
+    "http://localhost:5173",     # ✅ default value
 )
-
-FRONTEND_ORIGINS = [
-    origin.strip()
-    for origin in FRONTEND_URL.split(",")
-    if origin.strip()
-]
