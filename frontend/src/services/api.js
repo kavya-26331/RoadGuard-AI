@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL:
+    import.meta.env.VITE_API_URL ||
+    "http://localhost:8000",
   headers: {
     "Content-Type": "application/json",
   },
@@ -34,8 +36,7 @@ async function assessRisk(data) {
     }
 
     throw new Error(
-      "Unable to connect to RoadGuard AI backend. " +
-      "Make sure FastAPI is running on port 8000."
+      "Unable to connect to RoadGuard AI backend."
     );
   }
 }
